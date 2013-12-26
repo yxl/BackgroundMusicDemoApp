@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/headers.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/toolbars.css">
+    <title>Background Music Demo App</title>
+</head>
+
+<body>
+    <section role="region">
+        <header>
+            <menu type="toolbar">
+                <button id="install"><span class="icon icon-add">Install</span></button>
+            </menu>
+            <h1 data-l10n-id="app-heading">
+                Background Music Demo App
+            </h1>
+        </header>
+    </section>
+
+    <div id="main">
+        <audio src="music.ogg" controls="controls" autoplay="true" loop="true" mozaudiochannel="content"></audio>
+    </div>
+
+    <footer>
+        <div role="toolbar">
+            <ul>
+                <li><button id="reload" class="update" data-l10n-id="update-button">Update</button></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/base.js"></script>
+</body>
+</html>
