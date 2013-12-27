@@ -23,7 +23,11 @@
     </section>
 
     <div id="main">
-        <audio src="music.ogg" controls="controls" autoplay="true" loop="true" mozaudiochannel="content"></audio>
+        <h2>Play without JavaScript:</h2>
+        <audio src="music.ogg" controls="controls" loop="true" mozaudiochannel="content"></audio>
+        <h2>Play with JavaScript</h2>
+        <audio id="player-audio" class="hidden"></audio>
+        <button id="play">Play</button>
     </div>
 
     <footer>

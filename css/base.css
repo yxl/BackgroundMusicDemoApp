@@ -92,3 +92,7 @@ footer {
 [role="toolbar"] li button.update {
     background-image: url("../images/toolbars/icons/update.png");
 }
+
+.hidden {
+  display: none;
+}
