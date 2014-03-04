@@ -1,25 +1,22 @@
 {
   "version": "1",
   "name": "Background Music Demo",
-  "launch_path": "/BackgroundMusicDemoApp/index.html",
+  "launch_path": "/index.html",
   "description": "Background Music Demo App",
   "icons": {
-    "16": "/BackgroundMusicDemoApp/images/logo16.png",
-    "32": "/BackgroundMusicDemoApp/images/logo32.png",
-    "48": "/BackgroundMusicDemoApp/images/logo48.png",
-    "60": "/BackgroundMusicDemoApp/images/logo60.png",
-    "64": "/BackgroundMusicDemoApp/images/logo64.png",
-    "90": "/BackgroundMusicDemoApp/images/logo90.png",
-    "120": "/BackgroundMusicDemoApp/images/logo120.png",
-    "128": "/BackgroundMusicDemoApp/images/logo128.png"
+    "16": "/images/logo16.png",
+    "32": "/images/logo32.png",
+    "48": "/images/logo48.png",
+    "60": "/images/logo60.png",
+    "64": "/images/logo64.png",
+    "90": "/images/logo90.png",
+    "120": "/images/logo120.png",
+    "128": "/images/logo128.png"
   },
   "developer": {
     "name": "Yuan Xulei",
     "url": "http://github.com/yxl"
   },
-  "installs_allowed_from": [
-    "*"
-  ],
   "permissions": {
     "audio-channel-content": {}
   }
